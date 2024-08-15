@@ -9,7 +9,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001394587233"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
@@ -23,21 +23,21 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME 🌺</b>\n{upti
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "ʙʀᴜʜ ᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ sᴇɴᴘᴀɪ!!")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6930117453:AAFnP55o09Qbv83A6I4e4Qe3MkoJGjUZ654") 
 #your api id from https://my.telegram.org/apps
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "23048198"))
 #your api hash from https://my.telegram.org/apps
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "3398a27e9a0c3d60657b2d7d45f31a37")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002255639714"))
 #your database channel link
 CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5886772061"))
 #port set to default 8080
 PORT = os.environ.get("PORT", "8080")
 #your database url mongodb only You can use mongo atlas free cloud database
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://lavda:lassan@cluster0.9uhmlry.mongodb.net/")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://aaroha:aaroha@cluster0.6jc4x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #your database name
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
@@ -46,28 +46,28 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "60"))
 #your start default command message.
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 #your telegram tag without @
-OWNER_TAG = os.environ.get("OWNER_TAG", "cosmic_freak")
+OWNER_TAG = os.environ.get("OWNER_TAG", "Filmy_Boyy")
 #Time in seconds for message delete
 TIME = int(os.environ.get("TIME", "60"))
 
 
 # add premium logs channel id
-PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1001868871195'))
+PAYMENT_LOGS = int(environ.get('PAYMENT_LOGS', '-1002255639714'))
 
 #Shortner (token system) 
 """
 some token verification sites
-https://dashboard.shareus.io/
+https://ez4short.xyz/
 """
 
 # Turn this feature on or off using True or False put value inside  ""
 # TRUE for yes FALSE if no 
-USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "FALSE") == "TRUE" else False 
+USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
 # only shareus service known rightnow rest you can test on your own
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "api.shareus.io")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "ez4short.xyz")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "12b2d8281afa6d870f9b44bd0cba166704c7ea50")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
