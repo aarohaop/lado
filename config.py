@@ -9,7 +9,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001394587233"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002193356619"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001394587233"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
@@ -31,7 +31,7 @@ API_HASH = os.environ.get("API_HASH", "3398a27e9a0c3d60657b2d7d45f31a37")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002055639714"))
 #your database channel link
-CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "@netflixvilla_india")
+CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "thhps://t.me/netflixvilla_india")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "5886772061"))
 #port set to default 8080
@@ -77,9 +77,9 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/howtodownloadany")
 
 #Payment to remove the token system
 #put TRUE if you want this feature
-USE_PAYMENT = True if (os.environ.get("USE_PAYMENT", "FALSE") == "TRUE") & (USE_SHORTLINK) else False
+USE_PAYMENT = True if (os.environ.get("USE_PAYMENT", "TRUE") == "TRUE") & (USE_SHORTLINK) else False
 #UPI ID
-UPI_ID = os.environ.get("UPI_ID", " ")
+UPI_ID = os.environ.get("UPI_ID", "soon")
 #UPI QR CODE IMAGE
 UPI_IMAGE_URL = os.environ.get("UPI_IMAGE_URL", "")
 #SCREENSHOT URL of ADMIN for verification of payments
