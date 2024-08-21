@@ -31,7 +31,7 @@ API_HASH = os.environ.get("API_HASH", "3398a27e9a0c3d60657b2d7d45f31a37")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002055639714"))
 #your database channel link
-CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "thhps://t.me/netflixvilla_india")
+CHANNEL_LINK = os.environ.get("CHANNEL_LINK", "https://t.me/netflixvilla_india")
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "5886772061"))
 #port set to default 8080
