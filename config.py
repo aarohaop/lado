@@ -96,7 +96,7 @@ PRICE4 = os.environ.get("PRICE4", "550 rs")
 #1 Year
 PRICE5 = os.environ.get("PRICE5", "999 rs")
 #buy premium
-buy_prem = os.environ.get("buy_prem", "To buy premium comtact @filmy_boyy")
+BUY_PREM = os.environ.get("buy_prem", "To buy premium comtact @filmy_boyy")
 
 
 
