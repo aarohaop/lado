@@ -154,7 +154,7 @@ async def start_command(client: Client, message: Message):
                 btn = [
                 [InlineKeyboardButton("ᴄʟɪᴄᴋ ʜᴇʀᴇ", url=link),
                 InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ', url=TUT_VID)],
-                [InlineKeyboardButton("ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ", callback_data="buy_prem")]
+                [InlineKeyboardButton("ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ", callback_data="BUY_PREM")]
                 ]
             else:
                 btn = [
@@ -169,6 +169,7 @@ async def start_command(client: Client, message: Message):
     
 #=====================================================================================#
 
+BUY_PREM = """<b>To buy premium contact : @filmy_boyy </b>"""
 WAIT_MSG = """<b>Processing ...</b>"""
 
 REPLY_ERROR = """<code>Use this command as a replay to any telegram message without any spaces.</code>"""
